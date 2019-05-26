@@ -1,0 +1,21 @@
+<div>
+  <ul>
+    <li class="offer-list-item" *ngFor="let offer of offers$ | async">
+      <div class="offer-content">
+        <div class="flex-item-big">
+          <app-flight-list
+            flightIndex="{{ offer.FlightIndex }}"
+          ></app-flight-list>
+        </div>
+        <div class="flex-item-small right">
+          <app-booking
+            supplier="{{ offer.Supplier }}"
+            price="{{ offer.Price }}"
+            url="{{ offer.Deeplink }}"
+            currency="HUF"
+          ></app-booking>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

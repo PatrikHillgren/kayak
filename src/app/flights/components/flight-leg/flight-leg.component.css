@@ -1,0 +1,11 @@
+.container-item-class {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.item-class {
+  flex: 1;
+}
+.max {
+  max-width: 160px;
+}

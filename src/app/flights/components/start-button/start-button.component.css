@@ -1,0 +1,15 @@
+.align-center-class {
+  text-align: center;
+}
+
+.start-button {
+  height: 30px;
+  background-color: #2ca179;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.start-button:hover {
+  background-color: #b2f3dd;
+  cursor: pointer;
+}

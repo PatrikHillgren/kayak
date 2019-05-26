@@ -1,0 +1,20 @@
+<div class="flex-item-container">
+  <div class="flex-item" *ngIf="!legInfo.arrival">
+    {{ leg.AirlineName }}
+  </div>
+
+  <div class="flex-item-destination" *ngIf="!legInfo.arrival">
+    {{ airportDetails.Iata }}
+    {{ airportDetails.Time | date: 'HH:mm' }}
+    <div class="c-flights_ticket-summary-segment-place">
+      {{ airportDetails.Name }}
+    </div>
+  </div>
+  <div class="flex-item-arrival" *ngIf="legInfo.arrival">
+    {{ airportDetails.Time | date: 'hh:mm' }}
+    {{ airportDetails.Iata }}
+    <div class="c-flights_ticket-summary-segment-place">
+      {{ airportDetails.Name }}
+    </div>
+  </div>
+</div>

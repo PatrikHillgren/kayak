@@ -1,0 +1,14 @@
+<div class="container-item-class">
+  <app-flight-location
+    class="item-class"
+    [legInfo]="getOriginLegIndex()"
+  ></app-flight-location>
+  <app-flight-duration
+    class="item-class max"
+    flightDuration="{{ segment.Duration }}"
+  ></app-flight-duration>
+  <app-flight-location
+    class="item-class"
+    [legInfo]="getDestinationLegIndex()"
+  ></app-flight-location>
+</div>

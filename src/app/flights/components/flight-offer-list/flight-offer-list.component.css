@@ -1,0 +1,23 @@
+.offer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center space-between;
+  flex-wrap: nowrap;
+}
+.offer-list-item {
+  margin-bottom: 20px;
+}
+
+.flex-item-small {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.flex-item-big {
+  flex: 1;
+  flex-grow: 4;
+}
+
+.right {
+  text-align: right;
+}

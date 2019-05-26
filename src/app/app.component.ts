@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'momondoHomeTest';
+  title = 'Patriks flight search simulator 2000!';
 }

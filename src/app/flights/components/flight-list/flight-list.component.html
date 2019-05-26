@@ -1,0 +1,9 @@
+<!-- loopa över alla legs skriva ut airline samt listitem -->
+<div class="inner-list-distance">
+  <ul class="list-style">
+    <li *ngFor="let segment of segmentIndexes$ | async; let i = index">
+      <p class="separator" *ngIf="i"></p>
+      <app-flight-leg flightSegmentIndex="{{ segment }}"></app-flight-leg>
+    </li>
+  </ul>
+</div>

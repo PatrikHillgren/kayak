@@ -1,0 +1,13 @@
+.list-style {
+  justify-content: center;
+}
+.inner-list-distance {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+}
+.separator {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+}

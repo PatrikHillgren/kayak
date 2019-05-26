@@ -1,0 +1,12 @@
+<div class="align-center-class">
+  <button
+    *ngIf="displayButton()"
+    class="start-button"
+    (click)="startNewFlightSearch()"
+  >
+    Start New Flight Search
+  </button>
+  <app-flight-search-status
+    [displayText]="getStatusText()"
+  ></app-flight-search-status>
+</div>

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+html {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0125rem;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: #1e063c;
+  font-family: ffprimary, 'Hiragino Sans GB', '冬青黑体简体中文', 'STXihei',
+    '华文细黑', 'Microsoft YaHei', '微软雅黑', '文泉驿微米黑', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
